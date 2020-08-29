@@ -65,7 +65,7 @@ def conditionalStatement(x=0,y=0):
 
   Notes
   -----  
-  25/08/20: Created
+  25/08/20 : Created
   Nicholas Butterly
 
   Examples
