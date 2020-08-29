@@ -2,8 +2,6 @@
 
 class foodItem():
   """
-  foodItem(foodName,calories)
-
   Class that stores the food name and calories of food.
 
   Parameters
@@ -53,11 +51,14 @@ class foodItem():
       print("Category must be \"f\" for foodName or \"c\" for calories")
 
 class foodItemNoCal(foodItem):
+  """
+  IS THERE ANYBODY OUT THERE
+  """
   def __init__(self,foodName):
     self.foodName = foodName
     self.calories = 0
   def change(self,newInsert):
-    super().change(self,newInsert,"f")
+    super().change(newInsert,"f")
 
 def main():
   f1 = foodItemNoCal("Chicken Burger")
@@ -71,3 +72,5 @@ if __name__ == "__main__":
 # Use __init__ to initialise the instance of the class
 # For an instance of foodItemNoCal named `f1` with a method .show(),   `f1.show()` is equivalent to `foodItemNoCal.show(f1)`
 # classes can inherit all methods of a superclass, with the superclass methods being called as super().method1()
+# For information on superclasses, class methods, altnerative constructors, and class variables: https://youtu.be/RSl87lqOXDE
+# .append() and .remove() are inbuilt methods for lists e.g. ["hi","pens"]
