@@ -1,26 +1,11 @@
-#
-# Example file for working with date information
-#
+from datetime import date as dt
+from datetime import time as tm
+from datetime import datetime as dtm
 
 
 def main():
-  ## DATE OBJECTS
-  # Get today's date from the simple today() method from the date class
-
-
-  # print out the date's individual components
-
-  
-  # retrieve today's weekday (0=Monday, 6=Sunday)
-
-  
-  ## DATETIME OBJECTS
-  # Get today's date from the datetime class
-
-
-  # Get the current time
-
-
+  today = dt.today()
+  print(today)
   
 if __name__ == "__main__":
   main();

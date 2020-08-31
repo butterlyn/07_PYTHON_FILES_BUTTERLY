@@ -26,6 +26,7 @@ def main():
     
     # now put things into a ZIP archive
     root_dir,tail = path.split(src)
+    print(tail)
     shutil.make_archive("archive", "zip", root_dir)
 
     # more fine-grained control over ZIP files

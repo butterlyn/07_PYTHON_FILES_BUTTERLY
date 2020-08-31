@@ -9,21 +9,14 @@ import time
 
 
 def main():
-  # Print the name of the OS
-
-
-  # Check for item existence and type
-
+  a = os.path.split(os.path.realpath("./textfile.txt")) # Output is a tuple
+  print("\n" + a[1] + "\n")
+  print(a[0] + "\n")
+  print(
+    os.path.exists("./textfile.txt"),
+    os.path.isdir("./textfile.txt"),
+    os.path.isfile("./textfile.txt"))
   
-  # Work with file paths
-
-  
-  # Get the modification time
-
-  
-  # Calculate how long ago the item was modified
-
-
   
 if __name__ == "__main__":
   main()
