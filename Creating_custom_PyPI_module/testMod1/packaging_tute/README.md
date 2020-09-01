@@ -1,0 +1,1 @@
+This is an example README for example_pkg for butterlyn upload to PyPI in markdown. For writing markdown files, see [link](https://guides.github.com/features/mastering-markdown/)

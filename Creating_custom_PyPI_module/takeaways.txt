@@ -1,0 +1,34 @@
+Upload module onto PyPI account.
+required modules: `wheel` and `setuptools` `twine`
+Use Sphyinx to help generate necessary documentation [https://packaging.python.org/tutorials/creating-documentation/]
+bash command: sphinx-quickstart
+
+Basic packing of PyPI modules: https://packaging.python.org/tutorials/packaging-projects/
+More details: https://youtu.be/GIF3LaRqgXo
+
+generating distribution archives: run this command to generate the -info and dist directories once the package directories are inserted (make sure python module wheel is installed)
+python3 setup.py sdist bdist_wheel
+
+uploading to pyPI:
+python3 -m twine upload --repository pypi dist/*
+
+leave __init__.py empty. it identifies the directory containing the package modules.
+
+updating package:
+1. make changes to code in package directory
+2. delete contents of dist directory
+3. update version number in setup.py
+4. regenerate dist, reuploat to pyPI
+5. update package on computer using
+    sudo pip3 install [package_name] --upgrade
+
+importing to a python file:
+python3 -m pip install example-pkg-butterly
+from example_pkg import testModule1
+OR
+import example_pkg.testModule1
+
+testModule1.add_num()
+OR
+example_pkg.testModule1.add_num()
+

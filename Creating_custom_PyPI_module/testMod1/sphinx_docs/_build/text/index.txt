@@ -1,0 +1,12 @@
+Welcome to TestMod1’s documentation!
+************************************
+
+
+Indices and tables
+******************
+
+* Index
+
+* Module Index
+
+* Search Page
