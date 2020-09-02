@@ -1,2 +1,3 @@
 # add files for git to ignore. e.g. `*.txt`, `*.exe
 *.vscode
+*.ipynb_checkpoints
