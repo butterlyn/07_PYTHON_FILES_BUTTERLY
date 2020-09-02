@@ -1,7 +1,0 @@
-Day number 1 of the week is: mon
-Day number 2 of the week is: tues
-Day number 3 of the week is: weds
-Day number 4 of the week is: thurs
-Day number 5 of the week is: fri
-Day number 6 of the week is: sat
-Day number 7 of the week is: sun
