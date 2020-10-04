@@ -1,0 +1,16 @@
+File Format:1.0
+Sample Rate:60000
+High Level:1
+Low Level:-0.5
+Filter:"NORMAL"
+Channel Count:1
+Header:Arb Name,Repeat Count,Play Control,Marker Mode,Marker Point
+\sequence4\N__DEL11.barb,1,"once","maintain",0
+\sequence4\N__PUL11.barb,1,"once","maintain",0
+\sequence4\N__1KH11.barb,1,"once","maintain",0
+\sequence4\N__DEL11.barb,1,"once","maintain",0
+\sequence4\N__3KH11.barb,1,"once","maintain",0
+\sequence4\N__DEL11.barb,1,"once","maintain",0
+\sequence4\N__PUU11.barb,1,"once","maintain",0
+\sequence4\N__DEL11.barb,1,"once","maintain",0
+\sequence4\N__PLS11.barb,1,"onceWaitTrig","maintain",0

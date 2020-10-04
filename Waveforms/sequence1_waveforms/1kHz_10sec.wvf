@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Version>2.01.00</Version>
+  <Instrument>33500-Series</Instrument>
+  <SampleRate>20000</SampleRate>
+  <Channel Name="eChannel1">
+    <Segment Name="eSineSegment" TotalSamples="200000" Amplitude="2" Offset="0" Cycles="10000" Phase="0" />
+  </Channel>
+</Root>
