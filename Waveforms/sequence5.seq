@@ -1,8 +1,0 @@
-File Format:1.0
-Sample Rate:400000
-High Level:0.5
-Low Level:-0.5
-Filter:"NORMAL"
-Channel Count:1
-Header:Arb Name,Repeat Count,Play Control,Marker Mode,Marker Point
-\sequence5\N__SWE11.barb,1,"onceWaitTrig","maintain",0
